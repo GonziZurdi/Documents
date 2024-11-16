@@ -1,0 +1,473 @@
+Log: Log file open, 10/11/2024 17:57:04
+Log: GPsyonixBuildID 241014.43841.462850
+Log: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=788fad822dfb4232b645699329b8554d -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername="GLG-misterz" -epicuserid=df3ec25e87a3496f918c7e331029b267 -epiclocale=es-ES -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Language extension: ESN
+Init: Language extension: ESN
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 241014.43841.462850
+Init: Compiled (64-bit): Oct 14 2024 12:48:06
+Init: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=788fad822dfb4232b645699329b8554d -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername="GLG-misterz" -epicuserid=df3ec25e87a3496f918c7e331029b267 -epiclocale=es-ES -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: Base directory: D:\rocketleague\Binaries\Win64\
+[0000.94] Log: Purging 30-day cache '..\..\TAGame\Cache\WebCache\*.*'...
+[0001.23] Log: Purging 3-day cache '..\..\TAGame\Logs\*.log'...
+[0001.26] Init: Computer: DESKTOP-N9DKBEG
+[0001.26] Init: User: gonza
+[0001.26] Init: CPU Page size=4096, Processors=12
+[0001.26] Init: High frequency timer resolution =10.000000 MHz
+[0001.26] Init: Memory total: Physical=16.0GB (16GB approx) Pagefile=24.5GB Virtual=131072.0GB
+[0001.26] Init: Presizing for 138000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.26] Init: Object subsystem initialized
+[0001.31] Log: Using feature set PrimeUpdate52_1
+[0001.37] Log: FOnlineSubsystemEOS: EOS version = 1.13.0-24551320
+[0001.37] DevOnline: EOS Platform CacheDirectory=C:\Users\gonza\AppData\Local\Rocket League\
+[0001.70] Log: Found D3D11 adapter 0: NVIDIA GeForce GTX 1650
+[0001.70] Log: Adapter has 3935MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory
+[0001.71] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0001.71] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory
+[0001.72] Log: Shader platform (RHI): PC-D3D-SM5
+[0001.76] Breadcrumbs: Startup_PreInit: 1.761
+[0001.79] Breadcrumbs: Startup_LoadGlobalShaders: 0.025
+[0008.30] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0008.34] Log: ProductDatabase_TA::UpdateAvailableProducts  0.04 sec total.
+[0008.36] Breadcrumbs: Startup_LoadScriptPackages: 6.573
+[0009.21] Breadcrumbs: Startup_LoadNonNativePackages: 0.849
+[0009.22] Log: 145289 objects as part of root set at end of initial load.
+[0009.22] Log: 0 out of 0 bytes used by permanent object pool.
+[0009.22] Log: ShaderCache load stats: AccumLoadSeconds=(3.158) ShadersLoaded=(406949) Duplicates=(26159)
+[0009.22] Log: Initializing Engine...
+[0009.25] Log: BuildID: -1179911027 from GPsyonixBuildID
+[0009.44] SystemSettings: Loading PC Settings
+[0009.45] Breadcrumbs: Startup_BuildGuidCache: 0.246
+[0009.48] Log: Running hardware survey...
+[0009.48] Log: Wwise(R) SDK Version 2019.1.1 Build 6977. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0009.69] Log: OS: Microsoft Windows 11 Home  (22631)
+[0009.69] Log: WinSAT: 7.7 [9.2 CPU, 8.9 2D, 9.9 3D, 9.2 Mem, 7.7 Disk]
+[0009.69] Log: Processor: AMD Ryzen 5 3600 6-Core Processor               (AMD64 Family 23 Model 113 Stepping 0) 6 Cores, 12 Threads
+[0009.69] Breadcrumbs: Startup_ClientInit: 0.240
+[0010.77] Log: Memory: 8.00GB
+[0010.77] Log: Memory: 8.00GB
+[0010.77] Log: VideoController: NVIDIA GeForce GTX 1650 (32.0.15.6094)
+[0010.77] Log: Network Adapter: TP-Link Wireless USB Adapter
+[0010.77] Log: Disk C: 69.95GB free of 222.22GB
+[0010.77] Log: Disk D: 482.32GB free of 931.50GB
+[0010.77] Log: Sound Device: NVIDIA High Definition Audio
+[0010.77] Log: Sound Device: Realtek High Definition Audio
+[0010.77] Log: Sound Device: Dispositivo de audio USB
+[0010.77] Log: Hardware survey complete in 0.59 seconds.
+[0010.77] Log: Detected 1 GPUs for rendering
+[0011.15] Breadcrumbs: Startup_CreateViewport: 1.457
+[0011.17] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0011.91] EOSGameClips: EOSGameClips: Activate called successfully.
+[0011.91] EOSGameClips: EOSGameClips: Audio initialized successfully.
+[0011.91] EOSGameClips: EOSGameClips: Subscribed to game clips status events successfully.
+[0011.91] EOSGameClips: EOSGameClips: Subscribed to user status events successfully.
+[0011.91] EOSGameClips: EOSGameClips: Successfully initialized!
+[0011.91] ScriptLog: PsyNet using environment DBE_Production Prod
+[0011.92] PsyNet: PsyNetConnection_X_0 disabled OSCS_ServiceUnavailable
+[0011.92] PsyNetStaticData: HandleCacheExpired
+[0011.92] PsyNetStaticData: HandleGetURL URL=(https://config.psynet.gg/v2/Config/BattleCars/-1179911027/Prod/Epic/ESN/)
+[0011.92] PsyNetStaticData: Blocking sync start
+[0011.93] DevOnline: WebRequest_X_0 SEND: https://config.psynet.gg/v2/Config/BattleCars/-1179911027/Prod/Epic/ESN/
+[0012.08] DevOnline: WebRequest_X_0 RECV: 304 
+[0012.08] PsyNetStaticData: Blocking sync complete. Elapsed=0.1583
+[0012.08] PsyNetStaticData: HandleDataChanged
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 7890
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8463
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8467
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10382
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10386
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8464
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8470
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8465
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 5311
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 9280
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8742
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8983
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10459
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10460
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10507
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10521
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10522
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10523
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10524
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10543
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10568
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10569
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10572
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10597
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10611
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10614
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10615
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10621
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10622
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10623
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10626
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10627
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10628
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10632
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10644
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10653
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10662
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10685
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10686
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10687
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 7012
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 9947
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10093
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10174
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10420
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10502
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10503
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10512
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10517
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10519
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10520
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10526
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10535
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10642
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10694
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10713
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10714
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10715
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10723
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10724
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10725
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10726
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10727
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10461
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10483
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10517
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10557
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10595
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10630
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10631
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10366
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10367
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10368
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10369
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 4062
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 8980
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10385
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10456
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10501
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10777
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10787
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10792
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10795
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10880
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10903
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 9823
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10241
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10413
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10697
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10819
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10820
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10854
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10926
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10927
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10932
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10981
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10917
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10918
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10915
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10916
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10914
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10936
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10937
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10943
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10944
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10883
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10881
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10806
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10888
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10847
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10856
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10910
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10908
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10909
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10772
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10537
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10649
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10783
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10790
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10478
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10716
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10782
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10788
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10960
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10822
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10698
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10967
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10968
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10969
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10961
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11016
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11042
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11043
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11044
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11045
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11054
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11055
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11057
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11064
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 10994
+[0012.09] Warning: Warning, Product not found for the XEStatusOverride: 11102
+[0012.09] ScriptWarning: ScriptWarning, Assertion failed, line 33
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0012.09] ScriptWarning: ScriptWarning, Assertion failed, line 33
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0012.13] Log: ProductDatabase_TA::UpdateAvailableProducts  0.04 sec total.
+[0014.86] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0014.86] PsyNet: PsyNetConnection_X_0 enabled
+[0014.88] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0014.88] EOSGameClips: Construct Constructed EOSGameClipsManager_TA. Self=(EOSGameClipsManager_TA_0)
+[0014.88] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0014.88] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 Logout
+[0014.88] PsyNet: PsyNetConnection_X_1 disabled OSCS_NotConnected
+[0014.88] AuthPsyNetVerbose: PsyNet connection status changed. Error 'OSCS_NotConnected'
+[0014.88] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0014.88] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 Logout
+[0014.88] AuthPlatformCritical: Initiating auth. Player num '0', Name '', Password length '0'
+[0014.88] ScriptLog: HandleBlockListStatusCreated Status=(PlatformBlockListStatus_0) ControllerId=(0)
+[0014.88] AuthEpicCritical: Sending Eos login request with Credentials '{Version '3', Id Length '2', Token Length '32', Type 'EOS_LCT_ExchangeCode', SystemAuthCredentialsOptions null? 'Null', ExternalType 'EOS_ECT_EPIC'}'
+[0014.91] SaveGame: Load Player.ControllerId=(0) SaveFileName=(..\..\TAGame\SaveDataEpic\DBE_Production\df3ec25e87a3496f918c7e331029b267.save)
+[0014.92] Breadcrumbs: Startup_InitOnlineSubsystem: 3.770
+[0014.95] DevNet: Browse: MENU_Main_p
+[0014.95] Log: LoadMap: MENU_Main_p
+[0014.96] Exit: XAudio2 Device shut down.
+[0014.99] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0015.35] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0015.36] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0015.52] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0015.64] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0015.68] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2024.11.10-17.57.18
+[0015.68] Log: Flushing async loaders.
+[0015.98] Log: Flushed async loaders.
+[0015.99] Log: Bringing up level for play took: 0.334802
+[0016.60] Log: ########### Finished loading level: 1.647660 seconds
+[0016.61] Breadcrumbs: Startup_Browse: 1.691
+[0016.61] Log: Initializing Engine Completed
+[0016.61] Breadcrumbs: Startup_Total: 16.615
+[0016.74] DevOnline: EOSSDK-LogEOSGameClips: Probing for recording system availability.
+[0016.75] DevOnline: WebRequest_X_1 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/HauntedHallows/2024/rl_hauntedhallows_spidermanvsvenom_eventscreen_logo_sdgfr.png
+[0016.76] DevOnline: WebRequest_X_2 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/HauntedHallows/2024/rl_hauntedhallows_spidermanvsvenom_eventscreen_rfgerg.jpg
+[0016.76] DevOnline: WebRequest_X_3 SEND: https://rl-cdn.psyonix.com/LogoImages/HH/rl_hauntedhallows2024_spidermanvsvenom_mainmenulogo_red_sdrg.png
+[0016.77] SaveGame: HandleDataLoaded Result.Code=(BasicLoadResult_Success)
+[0016.77] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0017.87] SaveData: Profile_TA_0 OnLoaded LocalID=(0)
+[0017.88] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0017.97] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0017.97] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0018.04] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0018.04] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0018.08] Log: Flushing async loaders.
+[0020.00] Log: Flushed async loaders.
+[0020.28] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_1065 (Owner: BG_Woods_Day_P.TheWorld:PersistentLevel.MeshCollector9) Outside World.
+[0020.30] Warning: Failed to find streaming level object associated with 'SeqAct_MultiLevelStreaming BG_Woods_Day_P.TheWorld:PersistentLevel.Main_Sequence.SeqAct_MultiLevelStreaming_0'
+[0020.31] XPGatedPlaylists: Not currently in a party.
+[0020.36] DevOnline: EOSSDK-LogEOSGameClips: Recording supported and available.
+[0020.36] DevOnline: EOSSDK-LogEOSGameClips: Recording availability changed from 'Pending' to 'Available'.
+[0020.36] EOSGameClips: EOSGameClips: Availability changed from Pending to Available.
+[0021.51] DevOnline: WebRequest_X_2 RECV: 304 
+[0021.52] DevOnline: WebRequest_X_1 RECV: 200 
+[0021.52] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9IYXVudGVkSGFsbG93cy8yMDI0L3JsX2hhdW50ZWRoYWxsb3dzX3NwaWRlcm1hbnZzdmVub21fZXZlbnRzY3JlZW5fbG9nb19zZGdmci5wbmc=) wrote 141899 bytes to memory
+[0021.52] DevOnline: WebRequest_X_3 RECV: 304 
+[0021.52] Error: Error, LocalCacheExport: Failed to create file writer '..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9IYXVudGVkSGFsbG93cy8yMDI0L3JsX2hhdW50ZWRoYWxsb3dzX3NwaWRlcm1hbnZzdmVub21fZXZlbnRzY3JlZW5fbG9nb19zZGdmci5wbmc='
+[0022.20] Log: Flushing async loaders.
+[0022.83] Log: Flushed async loaders.
+[0023.20] DevOnline: EOSSDK-LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[0024.22] AuthEpicCritical: Eos login result 'EOS_Success' for player '0'
+[0024.56] AuthEpicCritical: Connect login result 'EOS_Success' for player 'df3ec25e87a3496f918c7e331029b267', local num '0'
+[0024.58] AuthPlatformCritical: Login status changed for player '0' to 'LS_LoggedIn'
+[0024.58] AuthPlatformVerbose: Login attempt concluded
+[0024.58] AuthEpicVerbose: Requesting cabined status for player '0'
+[0024.58] DevOnline: WebRequest_X_4 SEND: https://api.epicgames.dev/epic/id/v1/accounts?accountId=df3ec25e87a3496f918c7e331029b267
+[0024.58] PsyNet: PsyNetConnection_X_1 enabled
+[0024.58] AuthPsyNetVerbose: PsyNet connection status changed. Error 'None'
+[0024.58] AuthPsyNetVerbose: Transitioning to state 'RequestAuthCode'
+[0024.58] AuthPsyNetCritical: Requesting auth ticket from platform for 'Epic|df3ec25e87a3496f918c7e331029b267|0'
+[0024.58] AuthPsyNetCritical: Platform auth ticket completed with success 'True'
+[0024.58] AuthPsyNetVerbose: Transitioning to state 'SendLoginRequest'
+[0024.58] AuthPsyNetCritical: Sending login RPC for player 'df3ec25e87a3496f918c7e331029b267' Auth ticket required? 'True'
+[0024.58] AuthPsyNetCritical: Primary player ID? 'Epic|df3ec25e87a3496f918c7e331029b267|0' Logging In PlayerID 'df3ec25e87a3496f918c7e331029b267'
+[0024.58] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 SendLoginRequest Epic|df3ec25e87a3496f918c7e331029b267|0 HandleLoginStatusChanged LS_LoggedIn Epic|df3ec25e87a3496f918c7e331029b267|0
+[0024.58] Party: HandleLocalPlayerLoginStatusChanged PlayerName=GLG-misterz PlayerID=Epic|df3ec25e87a3496f918c7e331029b267|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0024.59] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0024.59] DevOnline: WebRequest_X_5 SEND: https://api.rlpp.psynet.gg/rpc/Auth/AuthPlayer/v2
+[0024.67] XPGatedPlaylists: Not currently in a party.
+[0025.45] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0048.82] DevOnline: WebRequest_X_5 RECV: 200 
+[0048.82] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0048.82] DevOnline: EOSSDK-LogEOSUI: Social Overlay: browser was closed. Reopening...
+[0048.83] DevOnline: EOSSDK-LogEOSUI: Social Overlay: LoadComplete called with new result code: existing 'EOS_Success'; new 'EOS_UI_SocialOverlayLoadError'.
+[0048.94] DevOnline: WebRequest_X_4 RECV: 0 
+[0048.94] Log: WebRequest_X_4 type: HTTPError, message: 
+[0048.94] Log: Failed to parse JSON: offset:'0' 'The document is empty.'
+[0048.94] Log: UJSONSerializer_X::DecodeObject() Failed: Object=EOS_ErrorResponse Transient.EOS_ErrorResponse_0
+Json:
+
+[0048.94] ScriptLog: EOS: HTTP request failed with error:  ()
+[0048.94] ScriptWarning: ScriptWarning, Accessed None 'ResponseAsObject'
+	EpicLogin_X Transient.GameEngine_TA_0:LocalPlayer_TA_0.OnlinePlayer_TA_0.OnlinePlayerAuthentication_TA_0.EpicLogin_X_0
+	Function ProjectX.EpicLogin_X:HandleRequestCabinedMode:002F
+Script call stack:
+	Function ProjectX.__EOSHelpers_X__SendHTTPRequestSelectAuth_0x1:__EOSHelpers_X__SendHTTPRequestSelectAuth_0x1
+	Function ProjectX.EpicLogin_X:HandleRequestCabinedMode
+
+[0048.94] ScriptWarning: ScriptWarning, Accessed None 'ResponseAsObject'
+	EpicLogin_X Transient.GameEngine_TA_0:LocalPlayer_TA_0.OnlinePlayer_TA_0.OnlinePlayerAuthentication_TA_0.EpicLogin_X_0
+	Function ProjectX.EpicLogin_X:HandleRequestCabinedMode:0070
+Script call stack:
+	Function ProjectX.__EOSHelpers_X__SendHTTPRequestSelectAuth_0x1:__EOSHelpers_X__SendHTTPRequestSelectAuth_0x1
+	Function ProjectX.EpicLogin_X:HandleRequestCabinedMode
+
+[0048.94] ScriptWarning: ScriptWarning, Accessed None 'ResponseAsObject'
+	EpicLogin_X Transient.GameEngine_TA_0:LocalPlayer_TA_0.OnlinePlayer_TA_0.OnlinePlayerAuthentication_TA_0.EpicLogin_X_0
+	Function ProjectX.EpicLogin_X:HandleRequestCabinedMode:00B1
+Script call stack:
+	Function ProjectX.__EOSHelpers_X__SendHTTPRequestSelectAuth_0x1:__EOSHelpers_X__SendHTTPRequestSelectAuth_0x1
+	Function ProjectX.EpicLogin_X:HandleRequestCabinedMode
+
+[0048.94] AuthEpicVerbose: Cabined request completed for user '0' with result 'False', Error 'UnknownError'
+[0048.95] AuthPsyNetCritical: PsyNet auth RPC succeeded for player 'df3ec25e87a3496f918c7e331029b267'
+[0048.95] AuthPsyNetVerbose: Transitioning to state 'LoggedIn'
+[0048.95] AuthPsyNetCritical: Login successful for player 'df3ec25e87a3496f918c7e331029b267'
+[0048.95] Auth: OnlinePlayer_TA_0 OnlinePlayerAuthentication_TA_0 HandleAuthLoginChange Auth.bLoggedIn=(True)
+[0048.95] PsyNet: Enabling PerCon
+[0048.95] PsyNet: PsyNetConnection_X_1 SetAuthorized bAuthorized=True
+[0048.96] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(False) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(1731163487) EpochNow=(1731257976) TimeSince=(94489) ReconnectTimeoutSeconds=(900) Reservation=((ServerName="EU213-Ballistic10",Playlist=11,Region="EU",ReservationID="A04AB42DE67D4037B43077C0C8AADA77",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJTamcxeUhidiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8ZGYzZWMyNWU4N2EzNDk2ZjkxOGM3ZTMzMTAyOWIyNjd8MCIsInNlcnZlcl9uYW1lIjoiRVUyMTMtQmFsbGlzdGljMTAiLCJpYXQiOjE3MzExNjM0NzcsIm5iZiI6MTczMTE2MzQ3NywiZXhwIjoxNzMxMTc3ODc3fQ.BHanh4MtzkX081iWje7ZxWvjpVZUceU9vCzpdKnHLSJnZDXrdY0zan4dJ637moZ5NT68pUKvKOuEjjYZYCws2Q",JoinName="URNAGZRRB4RGS0QS",JoinPassword="DE2JGANJSJA9P1XA"))
+[0048.96] FTEVerbose: [GFx] EULA sync started, waiting for response.
+[0048.96] DevOnline: WebRequest_X_6 SEND: https://eulatracking-public-service-prod06.ol.epicgames.com/eulatracking/api/eos/v1/agreements/rocket_league/identities/df3ec25e87a3496f918c7e331029b267
+[0048.98] DevOnline: WebRequest_X_7 SEND: https://rl-cdn.psyonix.com/Legal/PC/PrivacyPolicy/ESN.txt
+[0048.98] DevOnline: WebRequest_X_8 SEND: https://rl-cdn.psyonix.com/Legal/PC/ToS/ESN.txt
+[0048.98] DevOnline: WebRequest_X_9 SEND: https://rl-cdn.psyonix.com/Legal/PC/SCT/ESN.txt
+[0048.98] DevOnline: WebRequest_X_10 SEND: https://rl-cdn.psyonix.com/Legal/PC/PaymentServices/ESN.txt
+[0049.04] XPGatedPlaylists: Not currently in a party.
+[0049.05] DevOnline: WebRequest_X_7 RECV: 304 
+[0049.05] DevOnline: WebRequest_X_9 RECV: 304 
+[0049.15] DevOnline: WebRequest_X_8 RECV: 304 
+[0049.24] DevOnline: WebRequest_X_10 RECV: 304 
+[0049.27] PsyNet: PsyNetMessengerWebSocket_X_0 Connected
+[0049.27] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bConnected=(True) bFreshConnection=(True)
+[0049.27] DevOnline: WebRequest_X_11 SEND: https://api.kws.ol.epicgames.com/v1/epic-settings/public/users/df3ec25e87a3496f918c7e331029b267/values?game=rl
+[0049.31] DevOnline: WebRequest_X_12 SEND: https://api.epicgames.dev/epic/friends/v1/df3ec25e87a3496f918c7e331029b267/blocklist
+[0049.34] DevOnline: PlayerDataStorage_QueryFileList: Beginning to query files. User=(df3ec25e87a3496f918c7e331029b267)
+[0049.34] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SetPsyNetConnection InPsyNetConnection=(PsyNetConnection_X_1)
+[0049.34] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bPerConConnected=(True)
+[0049.57] ScriptLog: ListenForBlockListDownloaded PrimaryStatus=(PlatformBlockListStatus_0) PrimaryStatus.DownloadStatus=(EB_Pending)
+[0049.65] DevOnline: WebRequest_X_6 RECV: 204 
+[0049.65] Log: Failed to parse JSON: offset:'0' 'The document is empty.'
+[0049.65] Log: UJSONSerializer_X::DecodeObject() Failed: Object=EulaTextResponse Transient.EulaTextResponse_0
+Json:
+
+[0049.65] FTEVerbose: [GFx] EULA sync response received.
+[0049.78] DevOnline: WebRequest_X_11 RECV: 200 
+[0049.78] EOSPermissions: NS=chat SN=voice PL=null EL=null DV=0 IV=0
+[0049.78] EOSPermissions: NS=chat SN=text PL=null EL=null DV=0 IV=0
+[0049.78] EOSPermissions: NS=profile SN=require-pin-to-add-friend PL=null EL=null DV=False IV=False
+[0049.78] EOSPermissions: NS=prm SN=marketing PL=null EL=True DV=True IV=True
+[0049.78] DevOnline: WebRequest_X_13 SEND: https://api.epicgames.dev/epic/friends/v1/df3ec25e87a3496f918c7e331029b267/outgoing
+[0049.79] EOSVoice: HandleFriendsListChanged
+[0049.80] DevOnline: PlayerDataStorage_QueryFileList: Finished querying files. User=(df3ec25e87a3496f918c7e331029b267) Success=(1)
+[0049.80] DevOnline: PlayerDataStorage_ReadFile: Beginning to download file. User=(df3ec25e87a3496f918c7e331029b267) FileName=(RLSaveData)
+[0049.80] DevOnline: WebRequest_X_12 RECV: 200 
+[0049.87] DevOnline: WebRequest_X_14 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Play.jpg
+[0049.87] DevOnline: WebRequest_X_15 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Shot.jpg
+[0049.87] DevOnline: WebRequest_X_16 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Save.jpg
+[0049.87] DevOnline: WebRequest_X_17 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Center.jpg
+[0049.87] DevOnline: WebRequest_X_18 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Win.jpg
+[0049.87] DevOnline: WebRequest_X_19 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_AerialGoal.jpg
+[0049.87] DevOnline: WebRequest_X_20 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_SAG.jpg
+[0049.87] DevOnline: WebRequest_X_21 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Clear.jpg
+[0049.87] DevOnline: WebRequest_X_22 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Goal.jpg
+[0049.90] DevOnline: WebRequest_X_23 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/NUX_Popup_Octane.png
+[0049.90] DevOnline: WebRequest_X_24 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/Season_imagery_Reward.png
+[0049.91] DevOnline: WebRequest_X_25 SEND: https://rl-cdn.psyonix.com/RocketPass/Images/S16/rl_s16_dash_as89.png
+[0049.93] DevOnline: WebRequest_X_13 RECV: 200 
+[0049.93] DevOnline: WebRequest_X_14 RECV: 304 
+[0049.95] DevOnline: WebRequest_X_15 RECV: 304 
+[0049.95] DevOnline: WebRequest_X_17 RECV: 304 
+[0049.96] DevOnline: WebRequest_X_16 RECV: 304 
+[0050.02] DevOnline: WebRequest_X_26 SEND: https://rl-cdn.psyonix.com/Playlists/Images/Limited_Events_BG_haunted-heatseeker.jpg
+[0050.03] DevOnline: WebRequest_X_27 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_ltm_rocket-labs_BG_v2.jpg
+[0050.04] DevOnline: WebRequest_X_28 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_knockout_bash_2022_playlist_details_image.jpg
+[0050.04] ScriptLog: RegionPinger_X_0 PingRegions ("3.236.222.205:7797","34.171.187.56:7807","18.144.44.78:8861","35.180.75.192:8907","18.163.49.178:8347","18.141.139.84:8613","43.206.112.119:7959","15.185.216.33:7705","3.25.202.96:8811","13.245.181.4:7891","15.228.29.87:9039","3.7.255.66:8767")
+[0050.04] DevOnline: WebRequest_X_18 RECV: 304 
+[0050.05] ScriptLog: HandleStatusChanged PrimaryStatus.DownloadStatus=(EB_Success) ControllerId=(0)
+[0050.07] DevOnline: WebRequest_X_19 RECV: 304 
+[0050.08] DevOnline: WebRequest_X_21 RECV: 304 
+[0050.08] DevOnline: WebRequest_X_22 RECV: 304 
+[0050.08] DevOnline: WebRequest_X_24 RECV: 304 
+[0050.08] DevOnline: WebRequest_X_25 RECV: 304 
+[0050.08] DevOnline: WebRequest_X_26 RECV: 304 
+[0050.10] DevOnline: WebRequest_X_23 RECV: 304 
+[0050.10] DevOnline: WebRequest_X_27 RECV: 304 
+[0050.11] DevOnline: WebRequest_X_28 RECV: 304 
+[0050.13] DevOnline: WebRequest_X_20 RECV: 304 
+[0050.16] DevOnline: PlayerDataStorage_ReadFile: File download complete. User=(df3ec25e87a3496f918c7e331029b267) FileName=(RLSaveData) Success=(1)
+[0050.16] EOSSync: HandleFileReadComplete LocalSaveTick: 719
+[0050.16] EOSSync: HandleFileReadComplete OnlineSaveTick: 715
+[0050.16] EOSSync: HandleFileReadComplete Local Save is up to date, keeping this file
+[0050.18] ScriptLog: NewProductIDs128: 
+[0050.18] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0050.18] AuthEpicVerbose: Epic save data loaded
+[0050.18] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:StartMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:true bPlatformLinked:true
+[0050.18] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0051.95] Matchmaking: All Regions Pinged: USE (1.0000),USC (1.0000),USW (1.0000),EU (1.0000),ASC (1.0000),ASM (1.0000),JPN (1.0000),ME (1.0000),OCE (1.0000),SAF (1.0000),SAM (1.0000),IND (1.0000)
+[0051.95] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1159 bytes to memory
+[0052.04] EOSVoice: HandleFriendsListChanged
+[0078.96] Log: Detected new XInput controller 0
+[0103.82] DevOnline: WebRequest_X_29 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1179911027&AppEnvironment=Prod&UploadType=eteventstream&UserID=|df3ec25e87a3496f918c7e331029b267|||Epic|df3ec25e87a3496f918c7e331029b267|0&SessionID=8AB22A524779B925199B10B7F67DE39D
+[0107.44] DevOnline: WebRequest_X_29 RECV: 204 
+[0163.82] DevOnline: WebRequest_X_30 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-1179911027&AppEnvironment=Prod&UploadType=eteventstream&UserID=|df3ec25e87a3496f918c7e331029b267|||Epic|df3ec25e87a3496f918c7e331029b267|0&SessionID=8AB22A524779B925199B10B7F67DE39D
+[0163.93] DevOnline: WebRequest_X_30 RECV: 204 
+[0168.08] Log: Found Unsupported controller H, Type: 66069, 4 Axes, 14 Buttons, 1 POVs
+[0169.64] Legacy: State Set
+[0169.64] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'false', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.64] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] AuthEpicVerbose: [GFx] Showing login flow. Platform linked? 'true' Prompt for epic link? 'false' Prompt for primary? 'false' Prompt for parental consent? 'false' Epic data loaded? 'true' Showing epic flow? 'false'
+[0169.64] AuthEpicVerbose: [GFx] Epic flow completed 'false'
+[0169.64] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.64] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] FTE: Starting Group:Prime_LegalText at Checkpoint:FTE_PrimaryPlayerIsXboxGuest
+[0169.64] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrimaryPlayerIsXboxGuest)
+[0169.64] FTE: Moving to Checkpoint:FTE_PrivacyPolicy
+[0169.64] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrivacyPolicy)
+[0169.64] FTE: Moving to Checkpoint:FTE_EulaText
+[0169.64] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.64] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_LegalText is active
+[0169.64] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_EulaText)
+[0169.64] FTE: CompleteActiveGroup GroupName:Prime_LegalText
+[0169.64] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.64] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.64] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.64] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.64] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.64] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0169.64] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0169.65] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0169.65] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.65] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.65] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[0169.65] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0169.65] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=(LGT_NewUser)
+[0169.69] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(True) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(1731163487) EpochNow=(1731258119) TimeSince=(94632) ReconnectTimeoutSeconds=(900) Reservation=((ServerName="EU213-Ballistic10",Playlist=11,Region="EU",ReservationID="A04AB42DE67D4037B43077C0C8AADA77",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJTamcxeUhidiIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8ZGYzZWMyNWU4N2EzNDk2ZjkxOGM3ZTMzMTAyOWIyNjd8MCIsInNlcnZlcl9uYW1lIjoiRVUyMTMtQmFsbGlzdGl
